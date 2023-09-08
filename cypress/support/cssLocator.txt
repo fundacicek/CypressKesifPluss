@@ -1,0 +1,25 @@
+
+
+. -> class
+# -> id
+[attr='value']
+tag[attr='value']
+$  --> ends with       [name$ = 'da']
+^  --> starts with     [name^ = '/fun']
+*  --> includes        [nme* = '/funda']
+
+
+
+ve -> ikili locatorlar kullanmak gerekirse -> araya hicbirsey koymuyoruz   
+a[href="/auth/register"].mr-2
+
+veya -> araya ,(virgul)
+
+xpath 
+ikili locatorlar -> ve -> and
+ikili locatorlar -> veya -> or
+
+css kullanırken cy.get()
+xpath kullanirken cy.xpath()
+
+
